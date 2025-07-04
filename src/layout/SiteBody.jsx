@@ -1,5 +1,5 @@
 import { Container, ScrollArea } from '@mantine/core';
-import { Outlet } from '@tanstack/react-router';
+import { Outlet } from 'react-router';
 import NewFooter from '../components/NewFooter';
 import SiteNav from '../components/SiteNav';
 

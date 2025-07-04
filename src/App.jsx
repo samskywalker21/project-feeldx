@@ -1,7 +1,5 @@
-import { Outlet } from '@tanstack/react-router';
-
+import { Outlet } from 'react-router';
 import ThemeComponent from './ThemeComponent';
-import Header from './components/Header';
 
 function App() {
     return (

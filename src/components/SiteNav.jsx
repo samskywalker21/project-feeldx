@@ -1,7 +1,8 @@
 import { Grid, Image, Group, Button, Text, Burger, Stack } from '@mantine/core';
 import { useHover, useViewportSize, useDisclosure } from '@mantine/hooks';
 import { modals } from '@mantine/modals';
-import { Link, useNavigate } from '@tanstack/react-router';
+// import { Link, useNavigate } from '@tanstack/react-router';
+import { Link, useNavigate } from 'react-router';
 import ContactForm from './ContactForm';
 import logo from '../assets/logoWhite.png';
 
@@ -36,7 +37,7 @@ const SiteNav = () => {
                             fw={500}
                             onClick={() => {
                                 modals.closeAll();
-                                nav({ to: '/' });
+                                nav('/');
                             }}
                         >
                             Home

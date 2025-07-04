@@ -1,6 +1,7 @@
 import { Grid, Title, Text, Button, Center, Image } from '@mantine/core';
 import { useViewportSize } from '@mantine/hooks';
-import { Link } from '@tanstack/react-router';
+// import { Link } from '@tanstack/react-router';
+import { Link } from 'react-router';
 import { ArrowRight } from 'lucide-react';
 import services from '../assets/services.jpg';
 
