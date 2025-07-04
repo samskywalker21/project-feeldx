@@ -1,7 +1,7 @@
 {
     "name": "project-feeldx",
     "homepage": "https://samskywalker21.github.io/project-feeldx",
-    "private": true,
+    "private": false,
     "version": "0.0.0",
     "type": "module",
     "scripts": {

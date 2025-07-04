@@ -18,7 +18,7 @@ const router = createBrowserRouter([
     {
         Component: App,
         children: [
-            { path: '/', Component: HeroBody },
+            { path: '/project-feeldx', Component: HeroBody },
             {
                 Component: SiteBody,
                 children: [
