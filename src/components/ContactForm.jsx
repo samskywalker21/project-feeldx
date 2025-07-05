@@ -87,7 +87,7 @@ const ContactForm = () => {
             email: (value) =>
                 /^\S+@\S+\.\S+$/.test(value) ? null : 'Invalid email address',
             mobile: (value) =>
-                value.length > 0 ? null : 'Mobile number is required',
+                /^[0-9-]+$/.test(value) ? null : 'Invalid mobile number format',
             service: (value) =>
                 value.length > 0 ? null : 'Service is required',
             serviceSepc: (value, values) =>
