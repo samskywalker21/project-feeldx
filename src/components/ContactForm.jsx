@@ -10,6 +10,7 @@ import {
 } from '@mantine/core';
 import { useForm } from '@mantine/form';
 import { modals } from '@mantine/modals';
+import { notifications } from '@mantine/notifications';
 
 const industries = [
     { value: 'BLDR', label: 'Builder' },
@@ -102,6 +103,10 @@ const ContactForm = () => {
             setVisible(false);
             form.reset();
             modals.closeAll();
+            notifications.show({
+                title: 'Success',
+                message: 'You will be contacted soon.',
+            });
         }, 5000);
     };
 
