@@ -10,7 +10,7 @@ const NewFooter = () => {
     const mailHover = useHover();
 
     return (
-        <Container fluid px={0} pt={'1.875rem'}>
+        <Container fluid px={0} pt={'10rem'} mb={'2rem'}>
             <Stack align='center'>
                 <Group>
                     <ActionIcon

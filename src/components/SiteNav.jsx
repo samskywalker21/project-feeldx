@@ -37,7 +37,7 @@ const SiteNav = () => {
                             fw={500}
                             onClick={() => {
                                 modals.closeAll();
-                                nav('/');
+                                nav('/project-feeldx');
                             }}
                         >
                             Home
@@ -49,7 +49,7 @@ const SiteNav = () => {
                             fw={500}
                             onClick={() => {
                                 modals.closeAll();
-                                nav({ to: '/about' });
+                                nav('/about');
                             }}
                         >
                             About Us
@@ -61,7 +61,7 @@ const SiteNav = () => {
                             fw={500}
                             onClick={() => {
                                 modals.closeAll();
-                                nav({ to: '/services' });
+                                nav('/services');
                             }}
                         >
                             Services
@@ -73,7 +73,7 @@ const SiteNav = () => {
                             fw={500}
                             onClick={() => {
                                 modals.closeAll();
-                                nav({ to: '/why' });
+                                nav('/why');
                             }}
                         >
                             Why FEELDX
@@ -94,7 +94,7 @@ const SiteNav = () => {
                 bg={'black'}
             >
                 <Grid.Col span={5}>
-                    <Link to={'/'}>
+                    <Link to={'/project-feeldx'}>
                         <Image src={logo} w={'9.375rem'} />
                     </Link>
                 </Grid.Col>
